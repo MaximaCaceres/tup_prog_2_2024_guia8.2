@@ -1,0 +1,18 @@
+DateTime fechaplan  = DateTime.Today;
+//mes siguiente
+DateTime siguiente = fechaplan.AddMonth(1);--20-1-2025
+
+//dia 1 del mes siguiente.
+siguiente = neqw DateTime(siguiente.Year,siguiente.Month,1)
+
+siguiente.AddDays(4);
+
+//5to dia habil
+int diaHabil=1;
+while(diaHabil<=5)
+{
+	if(siguiente.DayOfWeek!=DayOfWeek.Saturday o siguiente.DayOfWeek!=DayOfWeek.Sunday o Calendario[diaSiguiente]==null)
+	{
+		
+	}
+}
